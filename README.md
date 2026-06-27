@@ -1,241 +1,187 @@
-# HOSPITAL-PATIENT-RECORDS-ANALYSIS-DASHBOARD
-
-📌 Project Overview
-The Hospital Patient Records Analysis Dashboard is an interactive Power BI project designed to analyze patient treatment records, healthcare costs, patient satisfaction, hospital stay duration, recovery outcomes, and readmission rates.
-This dashboard transforms raw healthcare data into actionable insights, enabling healthcare administrators and decision-makers to monitor hospital performance, identify high-cost treatments, and improve patient outcomes.
-
-
-⸻
-
-
-🎯 Project Objectives
- • Analyze patient demographics and treatment records.
- • Monitor healthcare costs across medical conditions.
- • Evaluate patient satisfaction levels.
- • Measure recovery and readmission rates.
- • Identify high-cost procedures and conditions.
- • Support data-driven healthcare decision-making.
-
-
-⸻
-
-
-📊 Dashboard Overview
-Key Performance Indicators (KPIs) Metric Value
-Total Patients
-984
-Total Treatment Cost
-$8,236,000
-Average Length of Stay
-37.66 Days
-Average Satisfaction Score
-3.60
-Readmission Rate
-0.27
-Average Cost Per Patient
-$8,367.48
-Recovery Rate
-60%
+# 🏥 HOSPITAL PATIENT RECORDS ANALYSIS DASHBOARD
 
+## 📌 Introduction and Overview
 
-⸻
+The **Hospital Patient Records Analysis Dashboard** is an interactive Power BI project developed to analyze hospital patient records and provide meaningful insights into healthcare performance. The dashboard enables healthcare administrators and decision makers to monitor patient demographics, treatment costs, hospital stay duration, recovery outcomes, patient satisfaction, and readmission rates.
 
+By transforming raw healthcare data into interactive visualizations, this project supports data driven decision making, improves operational efficiency, and enhances patient care quality.
 
-📈 Dashboard Features
-Patient Demographics
- • Gender Analysis
- • Age Distribution
- • Patient Segmentation
-Cost Analysis
- • Treatment Cost by Medical Condition
- • Treatment Cost by Procedure
- • Average Cost per Patient
-Patient Satisfaction Analysis
- • Satisfaction Score by Medical Condition
- • Patient Experience Evaluation
-Outcome Analysis
- • Recovery Rate
- • Readmission Rate
- • Treatment Outcomes
-Interactive Filters
-Users can filter dashboard insights using:
- • Gender
- • Age
- • Medical Condition
- • Treatment Outcome
+# 📂 Data Description
 
+The dataset consists of **984 hospital patient records** containing demographic, clinical, and financial information.
 
-⸻
+### Dataset Fields
 
+- Patient ID
+- Gender
+- Age
+- Medical Condition
+- Procedure
+- Length of Stay
+- Treatment Cost
+- Satisfaction Score
+- Outcome Status
+- Readmission Status
 
-🔍 Key Insights
-1. Cancer Generated the Highest Treatment Cost
-Cancer patients accounted for the highest healthcare expenditure due to intensive treatment requirements and extended hospital stays.
-2. Surgery Was the Most Expensive Procedure
-Surgical procedures contributed significantly to the hospital’s overall treatment costs.
-3. Recovery Rate Reached 60%
-Approximately 60% of patients recovered successfully, indicating positive treatment outcomes.
-4. Satisfaction Levels Varied Across Conditions
-Patient satisfaction differed among medical conditions, highlighting opportunities for service improvement.
-5. Low Readmission Rate
-The low readmission rate suggests effective treatment plans and discharge management.
+### Key Performance Indicators (KPIs)
 
+ Metric Value 
 
-⸻
+* Total Patients  -  984 
+* Total Treatment Cost  -  $8,236,000 
+* Average Cost per Patient  -  $8,367.48 
+* Average Length of Stay  -  37.66 Days 
+* Average Satisfaction Score  -  3.60 
+* Recovery Rate  -  60% 
+* Readmission Rate  -  27% 
 
+# ⚙️ Methods
 
-🛠 Tools & Technologies Used
-Power BI
- • DAX Measures
- • Interactive Visualizations Dashboard Design
-Microsoft Excel
- • Data Cleaning
- SQL Server Management Studio Queries
- 
+The project followed a structured data analytics workflow consisting of the following stages:
 
+### 1. Data Cleaning
+The dataset was cleaned to improve data quality by:
+- filter
+- blank check
 
-⸻
+### 3. Data Transformation
 
+Microsoft Excel and Power BI were used to prepare the data by:
+- Formatting data types
+- organizing Data
+- Building DAX measures for KPI calculations
 
-📂 Dataset Information
-The dataset contains hospital patient records including:
- • Patient ID
- • Gender
- • Age
- • Medical Condition
- • Procedure
- • Length of Stay
- • Treatment Cost
- • Satisfaction Score
- • Outcome Status
- • Readmission Status
+### 4. Data Analysis
 
+SQL Server Management Studio (SSMS) was used to query and analyze the dataset, while Power BI was used to create interactive visualizations for:
 
-⸻
+- Patient demographics
+- Healthcare costs
+- Treatment outcomes
+- Patient satisfaction
+- Readmission analysis
 
+### Tools and Technologies
 
-💡 Skills Demonstrated
- • Data Cleaning
- • Data Transformation
- • DAX Calculations
- • Data Visualization
- • Dashboard Design
- • Healthcare Analytics
- • Business Intelligence Reporting
- 
+- Microsoft Excel
+- SQL Server Management Studio (SSMS)
+- Power BI
+- DAX
+- Data Visualization
+- Business Intelligence Reporting
 
-⸻
+# 📊 Analysis and Findings
 
+The dashboard provides comprehensive insights into hospital operations through multiple analytical views.
 
-📸 Dashboard Screenshot
-Dashboard Overview
-![Hospital Dashboard](<img width="897" height="509" alt="HOSPITAL PATIENT DASHBOARD" src="https://github.com/user-attachments/assets/255952ac-d3a6-48a5-8590-d2883604f0ad" />)
+## Patient Demographics Analysis
 
+- Gender distribution of patients was analyzed.
+- Patient ages were segmented into meaningful groups.
+- Demployed demographic patterns across medical conditions were identified.
 
-⸻
+## Cost Analysis
 
+- Cancer generated the highest overall treatment cost.
+- Surgical procedures were the most expensive treatments.
+- The average treatment cost per patient was **$8,367.48**.
 
-## 📌 Recommendations
+## Patient Satisfaction Analysis
 
-Based on the analysis of the hospital patient records, the following recommendations are proposed to improve healthcare service delivery, operational efficiency, and patient outcomes:
+- The overall average satisfaction score was **3.60 out of 5**.
+- Satisfaction levels varied across different medical conditions, indicating differences in patient experiences.
 
-### 1. Reduce High Treatment Costs
+## Outcome Analysis
 
-- Conduct regular reviews of treatment expenses, especially for high-cost medical conditions such as cancer.
-
-- Negotiate better pricing with suppliers and healthcare providers for medications and medical equipment.
-
-- Introduce cost-control measures without compromising the quality of patient care.
-
-### 2. Improve Patient Satisfaction
-
-- Identify departments or medical conditions with lower satisfaction scores and investigate the underlying causes.
-
-- Enhance communication between healthcare professionals and patients.
-
-- Implement regular patient feedback surveys to monitor service quality and identify improvement areas.
-
-### 3. Minimize Readmission Rates
-
-- Strengthen discharge planning by ensuring patients receive adequate post-treatment instructions.
-
-- Schedule follow-up appointments for high-risk patients to monitor recovery progress.
-
-- Develop patient education programs that encourage medication adherence and healthy lifestyle practices.
-
-### 4. Optimize Hospital Stay Duration
-
-- Review treatment processes to identify delays that contribute to prolonged hospital stays.
-
-- Improve coordination between departments to ensure timely diagnosis, treatment, and discharge.
-
-- Utilize predictive analytics to identify patients who may require extended hospitalization and plan resources accordingly.
-
-### 5. Enhance Resource Allocation
-
-- Allocate more medical personnel and equipment to departments managing high patient volumes.
-
-- Monitor resource utilization regularly to reduce bottlenecks and improve operational efficiency.
-
-- Use historical patient data to forecast demand and optimize staffing levels.
-
-### 6. Strengthen Data Quality Management
-
-- Establish standardized procedures for data collection and entry to minimize errors and inconsistencies.
-
-- Perform routine data validation and cleaning to ensure accuracy and completeness.
-
-- Encourage the use of electronic health record (EHR) systems to improve data reliability and accessibility.
-
-### 7. Expand Data Monitoring
-
-- Develop real-time dashboards that allow hospital management to continuously monitor key performance indicators.
-
-- Schedule periodic reviews of dashboard metrics to identify emerging trends and make timely decisions.
-
-- Incorporate additional performance indicators such as mortality rates, emergency response times, and bed occupancy rates for a more comprehensive analysis.
-
-### 8. Support Data-Driven Decision Making
-
-- Encourage hospital administrators to use dashboard insights when planning budgets, staffing, and patient care initiatives.
-
-- Regularly update the dashboard with new patient data to ensure accurate reporting and continuous performance monitoring.
-
-- Promote a culture of evidence-based decision-making across all hospital departments.
+- Recovery rate reached **60%**, indicating that the majority of patients experienced successful treatment outcomes.
+- Readmission rate remained relatively low at **27%**, suggesting effective discharge management and follow-up care.
 
 ---
 
-## ✅ Expected Benefits
+# 🔍 Insights
 
-Implementing these recommendations is expected to:
+The analysis revealed several important business insights:
 
-- Reduce unnecessary healthcare costs.
+### 1. Cancer Is the Most Costly Medical Condition
 
-- Improve patient satisfaction and overall experience.
+Cancer treatments accounted for the highest healthcare expenditure due to prolonged hospitalization, intensive therapies, and specialized medical care.
 
-- Lower hospital readmission rates.
+### 2. Surgical Procedures Drive Treatment Costs
 
-- Increase operational efficiency.
+Surgical interventions contributed significantly to total hospital expenses, making them the primary cost driver.
 
-- Enhance data quality and reporting accuracy.
+### 3. Recovery Outcomes Are Generally Positive
 
-- Support strategic planning through data-driven insights.
+A recovery rate of 60% indicates satisfactory treatment effectiveness while highlighting opportunities to improve recovery for the remaining patients.
 
-- Improve overall healthcare service delivery and patient outcomes.
+### 4. Patient Satisfaction Differs Across Medical Conditions
 
-  
+Variations in satisfaction scores suggest that some departments provide a better patient experience than others, indicating areas requiring service improvement.
 
- 🚀 Conclusion
-The Hospital Patient Records Analysis Dashboard provides a comprehensive view of patient demographics, treatment costs, hospital performance, and healthcare outcomes.
-By combining interactive visualizations with actionable insights, this dashboard supports informed decision-making, improves operational efficiency, and enhances patient care quality.
+### 5. Readmission Rate Is Relatively Low
 
+The low readmission rate suggests that discharge planning and treatment protocols are generally effective.
 
-⸻
+# 💡 Recommendations
 
+Based on the analysis, the following recommendations are proposed:
 
-👨‍💻 Author
-Chinecherem Blessing Onah
-Data Analyst | Power BI Developer | Business Intelligence Enthusiast
+## 1. Reduce High Treatment Costs
 
+- Conduct regular reviews of treatment expenses, especially for cancer care.
+- Negotiate better pricing for medications and medical equipment.
+- Implement cost control strategies while maintaining high quality patient care.
 
-⭐ If you found this project interesting, feel free to star the repository.
+## 2. Improve Patient Satisfaction
+
+- Investigate departments with lower satisfaction scores.
+- Improve communication between healthcare professionals and patients.
+- Introduce continuous patient feedback surveys to monitor service quality.
+
+## 3. Minimize Readmission Rates
+
+- Strengthen discharge planning processes.
+- Schedule routine follow up appointments for high risk patients.
+- Educate patients on medication adherence and healthy lifestyle practices.
+
+## 4. Optimize Hospital Stay Duration
+
+- Identify treatment delays contributing to extended hospital stays.
+- Improve coordination between departments.
+- Use predictive analytics to anticipate patients requiring longer hospitalization.
+
+## 5. Enhance Resource Allocation
+
+- Allocate additional staff and equipment to high demand departments.
+- Monitor resource utilization regularly.
+- Forecast patient demand using historical data for effective staffing.
+
+## 6. Strengthen Data Quality
+
+- Standardize data collection and entry procedures.
+- Perform routine data validation and cleaning.
+- Encourage the adoption of Electronic Health Record (EHR) systems.
+
+## 7. Expand Performance Monitoring
+
+- Develop realtime dashboards for continuous monitoring.
+- Review KPI performance regularly.
+- Incorporate additional healthcare metrics such as bed occupancy, emergency response times, and mortality rates.
+
+## 8. Promote Data Driven Decision Making
+
+- Encourage management to utilize dashboard insights for budgeting, staffing, and patient care planning.
+- Update dashboards regularly with new patient records.
+- Foster an evidence based decision making culture across hospital departments.
+
+# ✅ Conclusion
+
+The **Hospital Patient Records Analysis Dashboard** provides a comprehensive view of hospital performance by analyzing patient demographics, healthcare costs, treatment outcomes, patient satisfaction, and readmission trends.
+
+Through interactive Power BI visualizations and business intelligence techniques, the dashboard enables healthcare administrators to identify operational challenges, optimize resource allocation, reduce unnecessary costs, and improve overall patient care. The insights generated support strategic planning and informed decision making, making the dashboard a valuable tool for enhancing healthcare service delivery and organizational performance.
+
+## 👨‍💻 Author
+
+**Chinecherem Blessing Onah**
+
+*Data Analyst | Power BI Developer | Business Intelligence Enthusiast*
