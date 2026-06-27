@@ -86,14 +86,10 @@ The low readmission rate suggests effective treatment plans and discharge manage
 
 🛠 Tools & Technologies Used
 Power BI
- • Data Modeling
  • DAX Measures
- • Interactive Visualizations
- • Dashboard Design
+ • Interactive Visualizations Dashboard Design
 Microsoft Excel
  • Data Cleaning
- • Data Preparation
- • Data Validation
  SQL Server Management Studio Queries
  
 
@@ -121,14 +117,12 @@ The dataset contains hospital patient records including:
 💡 Skills Demonstrated
  • Data Cleaning
  • Data Transformation
- • Data Modeling
  • DAX Calculations
  • Data Visualization
  • Dashboard Design
  • Healthcare Analytics
  • Business Intelligence Reporting
- • Data Storytelling
-
+ 
 
 ⸻
 
